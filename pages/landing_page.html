@@ -1,0 +1,1866 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lexon Beauty - Discover Your Beauty Potential</title>
+    <meta name="description" content="Premium beauty products curated by experts. Transform your beauty routine with authentic brands and proven results. Trusted by 10,000+ beauty enthusiasts." />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<script type="module" src="https://static.rocket.new/rocket-web.js?_cfg=https%3A%2F%2Flexonbeau8119back.builtwithrocket.new&_be=https%3A%2F%2Fapplication.rocket.new&_v=0.1.6"></script>
+</head>
+<body class="font-inter bg-background">
+<!-- Navigation Header -->
+<nav class="fixed top-0 w-full bg-white/20 backdrop-blur-md z-50 border-b border-white/10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-16">
+            <!-- Logo -->
+            <div class="flex items-center">
+                <svg class="h-8 w-8 text-primary" viewBox="0 0 32 32" fill="currentColor">
+                    <path d="M16 2L20 10H28L22 16L24 24L16 20L8 24L10 16L4 10H12L16 2Z"/>
+                </svg>
+                <span class="ml-2 text-xl font-poppins font-bold text-white">Lexon Beauty</span>
+            </div>
+            
+            <!-- Desktop Navigation -->
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="#products" class="text-white/90 hover:text-white transition-colors">Produk</a>
+                <a href="#about" class="text-white/90 hover:text-white transition-colors">Tentang</a>
+                <a href="#testimonials" class="text-white/90 hover:text-white transition-colors">Testimoni</a>
+                <a href="#contact" class="text-white/90 hover:text-white transition-colors">Kontak</a>
+                <button class="bg-primary text-white px-4 py-2 rounded-beauty font-medium hover:bg-primary-600 transition-colors">
+                    Konsultasi Gratis
+                </button>
+            </div>
+            
+            <!-- Mobile Menu Button -->
+            <button class="md:hidden p-2" id="mobile-menu-toggle">
+                <svg class="h-6 w-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" id="hamburger-icon">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                </svg>
+                <svg class="h-6 w-6 text-white hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24" id="close-icon">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+                </svg>
+            </button>
+        </div>
+        
+        <!-- Mobile Menu Dropdown -->
+        <div class="md:hidden hidden bg-white/20 backdrop-blur-md border-t border-white/10" id="mobile-menu">
+            <div class="px-2 pt-2 pb-3 space-y-1">
+                <a href="#products" class="block px-3 py-2 text-white/90 hover:text-white hover:bg-white/10 rounded-md transition-colors">Produk</a>
+                <a href="#about" class="block px-3 py-2 text-white/90 hover:text-white hover:bg-white/10 rounded-md transition-colors">Tentang</a>
+                <a href="#testimonials" class="block px-3 py-2 text-white/90 hover:text-white hover:bg-white/10 rounded-md transition-colors">Testimoni</a>
+                <a href="#contact" class="block px-3 py-2 text-white/90 hover:text-white hover:bg-white/10 rounded-md transition-colors">Kontak</a>
+                <button class="w-full mt-2 bg-primary text-white px-4 py-2 rounded-beauty font-medium hover:bg-primary-600 transition-colors">
+                    Konsultasi Gratis
+                </button>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="relative min-h-screen bg-gradient-beauty flex items-center overflow-hidden pt-16">
+    <!-- Animated Background Elements -->
+    <div class="absolute inset-0 opacity-20">
+        <div class="absolute top-20 left-10 w-32 h-32 bg-white rounded-full animate-bounce-gentle"></div>
+        <div class="absolute top-40 right-20 w-24 h-24 bg-accent-200 rounded-full animate-bounce-gentle" style="animation-delay: 1s;"></div>
+        <div class="absolute bottom-32 left-1/4 w-20 h-20 bg-primary-200 rounded-full animate-bounce-gentle" style="animation-delay: 2s;"></div>
+    </div>
+    
+    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+        <div class="grid lg:grid-cols-2 gap-12 items-center">
+            <!-- Hero Content -->
+            <div class="text-center lg:text-left animate-slide-up">
+                <!-- Trust Bar -->
+                <div class="flex flex-wrap justify-center lg:justify-start gap-4 mb-6">
+                    <div class="flex items-center bg-white/90 px-3 py-1 rounded-full text-sm">
+                        <svg class="w-4 h-4 text-success mr-1" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+                        </svg>
+                        <span class="text-text-primary font-medium">10.000+ Pelanggan Puas</span>
+                    </div>
+                    <div class="flex items-center bg-white/90 px-3 py-1 rounded-full text-sm">
+                        <svg class="w-4 h-4 text-accent mr-1" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                        </svg>
+                        <span class="text-text-primary font-medium">Disetujui Dermatolog</span>
+                    </div>
+                    <div class="flex items-center bg-white/90 px-3 py-1 rounded-full text-sm">
+                        <svg class="w-4 h-4 text-secondary mr-1" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"/>
+                        </svg>
+                        <span class="text-text-primary font-medium">Cruelty-Free</span>
+                    </div>
+                </div>
+                
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-poppins font-bold text-white mb-6 leading-tight">
+                    Temukan Potensi <span class="text-accent">Kecantikan</span> Anda dengan Lexon Beauty
+                </h1>
+                
+                <p class="text-xl text-white/90 mb-8 max-w-2xl mx-auto lg:mx-0">
+                    Produk kecantikan premium yang dikurasi oleh ahli, menampilkan merek autentik dengan hasil terbukti - destinasi satu atap untuk solusi kecantikan transformatif.
+                </p>
+                
+                <!-- CTA Buttons -->
+                <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                    <button class="bg-primary text-white px-8 py-4 rounded-beauty font-poppins font-semibold text-lg shadow-cta hover:shadow-cta-hover transform-hover">
+                        Belanja Koleksi Premium
+                    </button>
+                    <button class="bg-white/20 backdrop-blur-sm text-white border-2 border-white/30 px-8 py-4 rounded-beauty font-poppins font-semibold text-lg hover:bg-white/30 transition-all">
+                        Konsultasi Kecantikan
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Hero Image -->
+            <div class="relative animate-fade-in">
+                <div class="relative z-10">
+                    <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Premium Beauty Products" class="w-full h-96 lg:h-[500px] object-cover rounded-2xl shadow-beauty" loading="lazy" onerror="this.src='https://images.pexels.com/photos/3762879/pexels-photo-3762879.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;" />
+                </div>
+                <!-- Floating Elements -->
+                <div class="absolute -top-4 -right-4 bg-accent text-text-primary px-4 py-2 rounded-full font-bold shadow-lg animate-bounce-gentle">
+                    Diskon 30%
+                </div>
+                <div class="absolute -bottom-4 -left-4 bg-white text-text-primary px-4 py-2 rounded-full font-medium shadow-lg">
+                    ⭐ 4.9/5 Rating
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Problem Agitation Section -->
+    <section class="py-16 bg-surface">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-poppins font-bold text-text-primary mb-4">
+                    Apakah Anda Mengalami Masalah Kecantikan Ini?
+                </h2>
+                <p class="text-lg text-text-secondary max-w-3xl mx-auto">
+                    Temukan solusi personal untuk kebutuhan kecantikan Anda dengan analisis kulit interaktif kami
+                </p>
+            </div>
+            
+            <!-- Interactive Quiz -->
+            <div class="max-w-4xl mx-auto">
+                <div class="bg-white rounded-2xl shadow-product p-8">
+                    <div class="grid md:grid-cols-2 gap-8 items-center">
+                        <div>
+                            <h3 class="text-2xl font-poppins font-semibold text-text-primary mb-6">
+                                Analisis Kulit Personal
+                            </h3>
+                            
+                            <!-- Quiz Options -->
+                            <div class="space-y-4">
+                                <label class="flex items-center p-4 border-2 border-neutral-200 rounded-beauty hover:border-primary cursor-pointer transition-colors">
+                                    <input type="radio" name="skin-concern" class="text-primary mr-3" />
+                                    <span class="text-text-primary">Kulit kusam dan tidak bercahaya</span>
+                                </label>
+                                <label class="flex items-center p-4 border-2 border-neutral-200 rounded-beauty hover:border-primary cursor-pointer transition-colors">
+                                    <input type="radio" name="skin-concern" class="text-primary mr-3" />
+                                    <span class="text-text-primary">Jerawat dan bekas jerawat</span>
+                                </label>
+                                <label class="flex items-center p-4 border-2 border-neutral-200 rounded-beauty hover:border-primary cursor-pointer transition-colors">
+                                    <input type="radio" name="skin-concern" class="text-primary mr-3" />
+                                    <span class="text-text-primary">Penuaan dini dan kerutan</span>
+                                </label>
+                                <label class="flex items-center p-4 border-2 border-neutral-200 rounded-beauty hover:border-primary cursor-pointer transition-colors">
+                                    <input type="radio" name="skin-concern" class="text-primary mr-3" />
+                                    <span class="text-text-primary">Kulit kering dan sensitif</span>
+                                </label>
+                            </div>
+                            
+                            <button class="w-full mt-6 bg-primary text-white py-3 rounded-beauty font-semibold hover:bg-primary-600 transition-colors">
+                                Dapatkan Rekomendasi Personal
+                            </button>
+                        </div>
+                        
+                        <div class="relative">
+                            <img src="https://images.pexels.com/photos/3762879/pexels-photo-3762879.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Skin Analysis" class="w-full h-80 object-cover rounded-beauty" loading="lazy" onerror="this.src='https://images.pixabay.com/photo/2020/08/18/11/26/cosmetics-5497596_1280.jpg'; this.onerror=null;" />
+                            
+                            <!-- Progress Indicator -->
+                            <div class="absolute bottom-4 left-4 right-4 bg-white/90 backdrop-blur-sm rounded-full p-2">
+                                <div class="flex items-center justify-between text-sm">
+                                    <span class="text-text-primary font-medium">Analisis Progress</span>
+                                    <span class="text-primary font-bold">75%</span>
+                                </div>
+                                <div class="w-full bg-neutral-200 rounded-full h-2 mt-1">
+                                    <div class="bg-primary h-2 rounded-full w-3/4 transition-all duration-500"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Product Categories Section -->
+<section id="products" class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl md:text-4xl font-poppins font-bold text-text-primary mb-4">
+                Koleksi Premium Kami
+            </h2>
+            <p class="text-lg text-text-secondary max-w-3xl mx-auto">
+                Jelajahi kategori produk kecantikan terbaik yang dikurasi khusus untuk kebutuhan Anda
+            </p>
+        </div>
+        
+        <!-- Category Tabs -->
+        <div class="flex flex-wrap justify-center gap-2 mb-12">
+            <button class="category-tab active px-6 py-3 rounded-full font-medium transition-all bg-primary text-white" data-category="bestsellers">
+                Best Sellers
+            </button>
+            <button class="category-tab px-6 py-3 rounded-full font-medium transition-all bg-neutral-100 text-text-primary hover:bg-primary hover:text-white" data-category="facewash">
+                Face Wash
+            </button>
+            <button class="category-tab px-6 py-3 rounded-full font-medium transition-all bg-neutral-100 text-text-primary hover:bg-primary hover:text-white" data-category="mens">
+                Men's Corner
+            </button>
+            <button class="category-tab px-6 py-3 rounded-full font-medium transition-all bg-neutral-100 text-text-primary hover:bg-primary hover:text-white" data-category="haircare">
+                Hair Care
+            </button>
+            <button class="category-tab px-6 py-3 rounded-full font-medium transition-all bg-neutral-100 text-text-primary hover:bg-primary hover:text-white" data-category="parfum">
+                Parfum Corner
+            </button>
+        </div>
+        
+        <!-- Product Grid Container -->
+        <div class="relative">
+            <!-- Desktop & Tablet Grid -->
+            <div class="hidden sm:grid sm:grid-cols-2 lg:grid-cols-4 gap-6" id="product-grid">
+                <!-- Best Sellers Products -->
+                <div class="product-card flip-card group cursor-pointer" data-category="bestsellers">
+                    <div class="flip-card-inner">
+                        <!-- Front of card -->
+                        <div class="flip-card-front">
+                            <div class="relative overflow-hidden rounded-t-beauty">
+                                <img src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Vitamin C Serum" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" onerror="this.src='https://images.pexels.com/photos/4041392/pexels-photo-4041392.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;" />
+                                
+                                <div class="absolute top-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity">
+                                    <button class="bg-white p-2 rounded-full shadow-md hover:bg-neutral-50">
+                                        <svg class="w-4 h-4 text-text-primary" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                                
+                                <div class="absolute top-2 left-2 bg-primary text-white px-2 py-1 rounded-full text-xs font-bold">
+                                    -25%
+                                </div>
+                            </div>
+                            
+                            <div class="p-4">
+                                <div class="flex items-center mb-2">
+                                    <div class="flex text-accent text-sm">
+                                        ⭐⭐⭐⭐⭐
+                                    </div>
+                                    <span class="text-text-secondary text-sm ml-2">(127 ulasan)</span>
+                                </div>
+                                
+                                <h3 class="font-poppins font-semibold text-text-primary mb-2">
+                                    Vitamin C Brightening Serum
+                                </h3>
+                                
+                                <p class="text-text-secondary text-sm mb-3">
+                                    Serum pencerah dengan 20% Vitamin C untuk kulit glowing
+                                </p>
+                                
+                                <div class="flex items-center justify-between mb-3">
+                                    <div>
+                                        <span class="text-lg font-bold text-primary">Rp 299.000</span>
+                                        <span class="text-sm text-text-secondary line-through ml-2">Rp 399.000</span>
+                                    </div>
+                                </div>
+                                
+                                <button class="w-full bg-primary text-white py-2 rounded-beauty font-medium hover:bg-primary-600 transition-colors">
+                                    Tambah ke Keranjang
+                                </button>
+                            </div>
+                        </div>
+                        
+                        <!-- Back of card -->
+                        <div class="flip-card-back">
+                            <div class="p-6 h-full bg-gradient-to-br from-primary-50 to-primary-100 rounded-beauty">
+                                <h3 class="font-poppins font-bold text-text-primary mb-4 text-center">
+                                    Detail Produk
+                                </h3>
+                                
+                                <div class="space-y-3 mb-4">
+                                    <div class="flex items-start">
+                                        <svg class="w-4 h-4 text-success mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+                                        </svg>
+                                        <span class="text-sm text-text-secondary">20% Vitamin C murni</span>
+                                    </div>
+                                    <div class="flex items-start">
+                                        <svg class="w-4 h-4 text-success mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+                                        </svg>
+                                        <span class="text-sm text-text-secondary">Teruji dermatolog</span>
+                                    </div>
+                                    <div class="flex items-start">
+                                        <svg class="w-4 h-4 text-success mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+                                        </svg>
+                                        <span class="text-sm text-text-secondary">Cocok untuk semua jenis kulit</span>
+                                    </div>
+                                    <div class="flex items-start">
+                                        <svg class="w-4 h-4 text-success mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+                                        </svg>
+                                        <span class="text-sm text-text-secondary">Hasil terlihat dalam 2 minggu</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="text-center">
+                                    <div class="text-xl font-bold text-primary mb-2">Rp 299.000</div>
+                                    <button class="w-full bg-primary text-white py-2 rounded-beauty font-medium hover:bg-primary-600 transition-colors">
+                                        Beli Sekarang
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Hyaluronic Acid Moisturizer -->
+                <div class="product-card flip-card group cursor-pointer" data-category="bestsellers">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="relative overflow-hidden rounded-t-beauty">
+                                <img src="https://images.pexels.com/photos/4041392/pexels-photo-4041392.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Hyaluronic Acid Moisturizer" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" onerror="this.src='https://images.pixabay.com/photo/2020/08/18/11/26/cosmetics-5497596_1280.jpg'; this.onerror=null;" />
+                                
+                                <div class="absolute top-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity">
+                                    <button class="bg-white p-2 rounded-full shadow-md hover:bg-neutral-50">
+                                        <svg class="w-4 h-4 text-text-primary" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                                
+                                <div class="absolute top-2 left-2 bg-success text-white px-2 py-1 rounded-full text-xs font-bold">
+                                    NEW
+                                </div>
+                            </div>
+                            
+                            <div class="p-4">
+                                <div class="flex items-center mb-2">
+                                    <div class="flex text-accent text-sm">
+                                        ⭐⭐⭐⭐⭐
+                                    </div>
+                                    <span class="text-text-secondary text-sm ml-2">(89 ulasan)</span>
+                                </div>
+                                
+                                <h3 class="font-poppins font-semibold text-text-primary mb-2">
+                                    Hyaluronic Acid Moisturizer
+                                </h3>
+                                
+                                <p class="text-text-secondary text-sm mb-3">
+                                    Pelembab intensif dengan hyaluronic acid untuk hidrasi maksimal
+                                </p>
+                                
+                                <div class="flex items-center justify-between mb-3">
+                                    <div>
+                                        <span class="text-lg font-bold text-primary">Rp 249.000</span>
+                                    </div>
+                                </div>
+                                
+                                <button class="w-full bg-primary text-white py-2 rounded-beauty font-medium hover:bg-primary-600 transition-colors">
+                                    Tambah ke Keranjang
+                                </button>
+                            </div>
+                        </div>
+                        
+                        <div class="flip-card-back">
+                            <div class="p-6 h-full bg-gradient-to-br from-primary-50 to-primary-100 rounded-beauty">
+                                <h3 class="font-poppins font-bold text-text-primary mb-4 text-center">
+                                    Detail Produk
+                                </h3>
+                                
+                                <div class="space-y-3 mb-4">
+                                    <div class="flex items-start">
+                                        <svg class="w-4 h-4 text-success mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+                                        </svg>
+                                        <span class="text-sm text-text-secondary">Hyaluronic Acid 2%</span>
+                                    </div>
+                                    <div class="flex items-start">
+                                        <svg class="w-4 h-4 text-success mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+                                        </svg>
+                                        <span class="text-sm text-text-secondary">24H intense hydration</span>
+                                    </div>
+                                    <div class="flex items-start">
+                                        <svg class="w-4 h-4 text-success mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+                                        </svg>
+                                        <span class="text-sm text-text-secondary">Non-comedogenic</span>
+                                    </div>
+                                    <div class="flex items-start">
+                                        <svg class="w-4 h-4 text-success mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+                                        </svg>
+                                        <span class="text-sm text-text-secondary">Suitable for dry skin</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="text-center">
+                                    <div class="text-xl font-bold text-primary mb-2">Rp 249.000</div>
+                                    <button class="w-full bg-primary text-white py-2 rounded-beauty font-medium hover:bg-primary-600 transition-colors">
+                                        Beli Sekarang
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Retinol Night Cream -->
+                <div class="product-card flip-card group cursor-pointer" data-category="bestsellers">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="relative overflow-hidden rounded-t-beauty">
+                                <img src="https://images.pixabay.com/photo/2020/08/18/11/26/cosmetics-5497596_1280.jpg" alt="Retinol Night Cream" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1556228578-8c89e6adf883?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3'; this.onerror=null;" />
+                                
+                                <div class="absolute top-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity">
+                                    <button class="bg-white p-2 rounded-full shadow-md hover:bg-neutral-50">
+                                        <svg class="w-4 h-4 text-text-primary" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                                
+                                <div class="absolute top-2 left-2 bg-warning text-text-primary px-2 py-1 rounded-full text-xs font-bold">
+                                    Stok Terbatas
+                                </div>
+                            </div>
+                            
+                            <div class="p-4">
+                                <div class="flex items-center mb-2">
+                                    <div class="flex text-accent text-sm">
+                                        ⭐⭐⭐⭐⭐
+                                    </div>
+                                    <span class="text-text-secondary text-sm ml-2">(156 ulasan)</span>
+                                </div>
+                                
+                                <h3 class="font-poppins font-semibold text-text-primary mb-2">
+                                    Retinol Night Cream
+                                </h3>
+                                
+                                <p class="text-text-secondary text-sm mb-3">
+                                    Krim malam anti-aging dengan retinol untuk kulit lebih muda
+                                </p>
+                                
+                                <div class="flex items-center justify-between mb-3">
+                                    <div>
+                                        <span class="text-lg font-bold text-primary">Rp 349.000</span>
+                                    </div>
+                                </div>
+                                
+                                <button class="w-full bg-primary text-white py-2 rounded-beauty font-medium hover:bg-primary-600 transition-colors">
+                                    Tambah ke Keranjang
+                                </button>
+                            </div>
+                        </div>
+                        
+                        <div class="flip-card-back">
+                            <div class="p-6 h-full bg-gradient-to-br from-primary-50 to-primary-100 rounded-beauty">
+                                <h3 class="font-poppins font-bold text-text-primary mb-4 text-center">
+                                    Detail Produk
+                                </h3>
+                                
+                                <div class="space-y-3 mb-4">
+                                    <div class="flex items-start">
+                                        <svg class="w-4 h-4 text-success mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+                                        </svg>
+                                        <span class="text-sm text-text-secondary">Retinol 0.5%</span>
+                                    </div>
+                                    <div class="flex items-start">
+                                        <svg class="w-4 h-4 text-success mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+                                        </svg>
+                                        <span class="text-sm text-text-secondary">Reduces fine lines</span>
+                                    </div>
+                                    <div class="flex items-start">
+                                        <svg class="w-4 h-4 text-success mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodar" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+                                        </svg>
+                                        <span class="text-sm text-text-secondary">Night use only</span>
+                                    </div>
+                                    <div class="flex items-start">
+                                        <svg class="w-4 h-4 text-success mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+                                        </svg>
+                                        <span class="text-sm text-text-secondary">Visible results in 4 weeks</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="text-center">
+                                    <div class="text-xl font-bold text-primary mb-2">Rp 349.000</div>
+                                    <button class="w-full bg-primary text-white py-2 rounded-beauty font-medium hover:bg-primary-600 transition-colors">
+                                        Beli Sekarang
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Niacinamide Serum -->
+                <div class="product-card flip-card group cursor-pointer" data-category="bestsellers">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="relative overflow-hidden rounded-t-beauty">
+                                <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Niacinamide Serum" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" onerror="this.src='https://images.pexels.com/photos/4041392/pexels-photo-4041392.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;" />
+                                
+                                <div class="absolute top-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity">
+                                    <button class="bg-white p-2 rounded-full shadow-md hover:bg-neutral-50">
+                                        <svg class="w-4 h-4 text-text-primary" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                                
+                                <div class="absolute top-2 left-2 bg-primary text-white px-2 py-1 rounded-full text-xs font-bold">
+                                    -15%
+                                </div>
+                            </div>
+                            
+                            <div class="p-4">
+                                <div class="flex items-center mb-2">
+                                    <div class="flex text-accent text-sm">
+                                        ⭐⭐⭐⭐⭐
+                                    </div>
+                                    <span class="text-text-secondary text-sm ml-2">(203 ulasan)</span>
+                                </div>
+                                
+                                <h3 class="font-poppins font-semibold text-text-primary mb-2">
+                                    Niacinamide Pore Control Serum
+                                </h3>
+                                
+                                <p class="text-text-secondary text-sm mb-3">
+                                    Serum pengontrol pori dengan 10% niacinamide
+                                </p>
+                                
+                                <div class="flex items-center justify-between mb-3">
+                                    <div>
+                                        <span class="text-lg font-bold text-primary">Rp 199.000</span>
+                                        <span class="text-sm text-text-secondary line-through ml-2">Rp 235.000</span>
+                                    </div>
+                                </div>
+                                
+                                <button class="w-full bg-primary text-white py-2 rounded-beauty font-medium hover:bg-primary-600 transition-colors">
+                                    Tambah ke Keranjang
+                                </button>
+                            </div>
+                        </div>
+                        
+                        <div class="flip-card-back">
+                            <div class="p-6 h-full bg-gradient-to-br from-primary-50 to-primary-100 rounded-beauty">
+                                <h3 class="font-poppins font-bold text-text-primary mb-4 text-center">
+                                    Detail Produk
+                                </h3>
+                                
+                                <div class="space-y-3 mb-4">
+                                    <div class="flex items-start">
+                                        <svg class="w-4 h-4 text-success mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+                                        </svg>
+                                        <span class="text-sm text-text-secondary">Niacinamide 10%</span>
+                                    </div>
+                                    <div class="flex items-start">
+                                        <svg class="w-4 h-4 text-success mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+                                        </svg>
+                                        <span class="text-sm text-text-secondary">Minimizes pores</span>
+                                    </div>
+                                    <div class="flex items-start">
+                                        <svg class="w-4 h-4 text-success mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+                                        </svg>
+                                        <span class="text-sm text-text-secondary">Controls oil production</span>
+                                    </div>
+                                    <div class="flex items-start">
+                                        <svg class="w-4 h-4 text-success mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+                                        </svg>
+                                        <span class="text-sm text-text-secondary">For oily & combination skin</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="text-center">
+                                    <div class="text-xl font-bold text-primary mb-2">Rp 199.000</div>
+                                    <button class="w-full bg-primary text-white py-2 rounded-beauty font-medium hover:bg-primary-600 transition-colors">
+                                        Beli Sekarang
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Hidden products for other categories remain the same structure but with flip cards -->
+                <!-- Face Wash Products -->
+                <div class="product-card flip-card group cursor-pointer hidden" data-category="facewash">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="relative overflow-hidden rounded-t-beauty">
+                                <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Gentle Foam Cleanser" class="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
+                                
+                                <div class="absolute top-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity">
+                                    <button class="bg-white p-2 rounded-full shadow-md hover:bg-neutral-50">
+                                        <svg class="w-4 h-4 text-text-primary" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"/>
+                                        </svg>
+                                    </button>
+                                </div>
+                                
+                                <div class="absolute top-2 left-2 bg-success text-white px-2 py-1 rounded-full text-xs font-bold">
+                                    NEW
+                                </div>
+                            </div>
+                            
+                            <div class="p-4">
+                                <div class="flex items-center mb-2">
+                                    <div class="flex text-accent text-sm">
+                                        ⭐⭐⭐⭐⭐
+                                    </div>
+                                    <span class="text-text-secondary text-sm ml-2">(95 ulasan)</span>
+                                </div>
+                                
+                                <h3 class="font-poppins font-semibold text-text-primary mb-2">
+                                    Gentle Foam Cleanser
+                                </h3>
+                                
+                                <p class="text-text-secondary text-sm mb-3">
+                                    Pembersih wajah lembut dengan formula bebas sulfat
+                                </p>
+                                
+                                <div class="flex items-center justify-between mb-3">
+                                    <div>
+                                        <span class="text-lg font-bold text-primary">Rp 189.000</span>
+                                    </div>
+                                </div>
+                                
+                                <button class="w-full bg-primary text-white py-2 rounded-beauty font-medium hover:bg-primary-600 transition-colors">
+                                    Tambah ke Keranjang
+                                </button>
+                            </div>
+                        </div>
+                        
+                        <div class="flip-card-back">
+                            <div class="p-6 h-full bg-gradient-to-br from-primary-50 to-primary-100 rounded-beauty">
+                                <h3 class="font-poppins font-bold text-text-primary mb-4 text-center">
+                                    Detail Produk
+                                </h3>
+                                
+                                <div class="space-y-3 mb-4">
+                                    <div class="flex items-start">
+                                        <svg class="w-4 h-4 text-success mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+                                        </svg>
+                                        <span class="text-sm text-text-secondary">Sulfate-free formula</span>
+                                    </div>
+                                    <div class="flex items-start">
+                                        <svg class="w-4 h-4 text-success mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+                                        </svg>
+                                        <span class="text-sm text-text-secondary">Gentle on sensitive skin</span>
+                                    </div>
+                                    <div class="flex items-start">
+                                        <svg class="w-4 h-4 text-success mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+                                        </svg>
+                                        <span class="text-sm text-text-secondary">Maintains natural moisture</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="text-center">
+                                    <div class="text-xl font-bold text-primary mb-2">Rp 189.000</div>
+                                    <button class="w-full bg-primary text-white py-2 rounded-beauty font-medium hover:bg-primary-600 transition-colors">
+                                        Beli Sekarang
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Continue with other category products with same flip card structure... -->
+            </div>
+            
+            <!-- Mobile Swiper -->
+            <div class="sm:hidden">
+                <div class="swiper-container" id="mobile-product-swiper">
+                    <div class="swiper-wrapper" id="mobile-product-wrapper">
+                        <!-- Mobile product cards will be dynamically populated -->
+                    </div>
+                    
+                    <!-- Pagination dots -->
+                    <div class="swiper-pagination mt-6"></div>
+                    
+                    <!-- Navigation arrows -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- View All Products Button -->
+        <div class="text-center mt-12">
+            <button class="bg-secondary text-white px-8 py-3 rounded-beauty font-poppins font-semibold hover:bg-secondary-600 transition-colors">
+                Lihat Semua Produk
+            </button>
+        </div>
+    </div>
+</section>
+
+    <!-- Customer Testimonials Section -->
+    <section id="testimonials" class="py-16 bg-gradient-beauty">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-poppins font-bold text-white mb-4">
+                    Transformasi Nyata dari Pelanggan Kami
+                </h2>
+                <p class="text-lg text-white/90 max-w-3xl mx-auto">
+                    Lihat bagaimana produk Lexon Beauty mengubah rutinitas kecantikan ribuan pelanggan
+                </p>
+            </div>
+            
+            <!-- Testimonials Grid -->
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-white rounded-2xl p-6 shadow-beauty">
+                    <div class="flex items-center mb-4">
+                        <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Sarah Putri" class="w-12 h-12 rounded-full object-cover mr-4" loading="lazy" onerror="this.src='https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;" />
+                        <div>
+                            <h4 class="font-poppins font-semibold text-text-primary">Sarah Putri</h4>
+                            <div class="flex text-accent text-sm">⭐⭐⭐⭐⭐</div>
+                        </div>
+                    </div>
+                    
+                    <p class="text-text-secondary mb-4">
+                        "Vitamin C serum dari Lexon Beauty benar-benar mengubah kulit saya! Dalam 2 minggu, kulit terlihat lebih cerah dan glowing. Produk terbaik yang pernah saya coba!"
+                    </p>
+                    
+                    <!-- Before/After Indicator -->
+                    <div class="flex items-center justify-between text-sm">
+                        <span class="text-success font-medium">✓ Verified Purchase</span>
+                        <span class="text-text-secondary">2 bulan lalu</span>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="bg-white rounded-2xl p-6 shadow-beauty">
+                    <div class="flex items-center mb-4">
+                        <img src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Maya Sari" class="w-12 h-12 rounded-full object-cover mr-4" loading="lazy" onerror="this.src='https://images.pixabay.com/photo/2016/11/29/13/14/attractive-1869761_1280.jpg'; this.onerror=null;" />
+                        <div>
+                            <h4 class="font-poppins font-semibold text-text-primary">Maya Sari</h4>
+                            <div class="flex text-accent text-sm">⭐⭐⭐⭐⭐</div>
+                        </div>
+                    </div>
+                    
+                    <p class="text-text-secondary mb-4">
+                        "Hyaluronic acid moisturizer ini amazing! Kulit kering saya jadi super lembab dan kenyal. Packaging juga premium banget, worth every penny!"
+                    </p>
+                    
+                    <div class="flex items-center justify-between text-sm">
+                        <span class="text-success font-medium">✓ Verified Purchase</span>
+                        <span class="text-text-secondary">1 bulan lalu</span>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="bg-white rounded-2xl p-6 shadow-beauty">
+                    <div class="flex items-center mb-4">
+                        <img src="https://images.pixabay.com/photo/2016/11/29/13/14/attractive-1869761_1280.jpg" alt="Rina Dewi" class="w-12 h-12 rounded-full object-cover mr-4" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1494790108755-2616b612b786?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3'; this.onerror=null;" />
+                        <div>
+                            <h4 class="font-poppins font-semibold text-text-primary">Rina Dewi</h4>
+                            <div class="flex text-accent text-sm">⭐⭐⭐⭐⭐</div>
+                        </div>
+                    </div>
+                    
+                    <p class="text-text-secondary mb-4">
+                        "Retinol night cream nya gentle tapi efektif. Fine lines di mata mulai berkurang setelah 3 minggu pemakaian. Highly recommended!"
+                    </p>
+                    
+                    <div class="flex items-center justify-between text-sm">
+                        <span class="text-success font-medium">✓ Verified Purchase</span>
+                        <span class="text-text-secondary">3 minggu lalu</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Social Proof Stats -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mt-12 text-center">
+                <div class="text-white">
+                    <div class="text-3xl font-poppins font-bold mb-2">10.000+</div>
+                    <div class="text-white/80">Pelanggan Puas</div>
+                </div>
+                <div class="text-white">
+                    <div class="text-3xl font-poppins font-bold mb-2">4.9/5</div>
+                    <div class="text-white/80">Rating Produk</div>
+                </div>
+                <div class="text-white">
+                    <div class="text-3xl font-poppins font-bold mb-2">98%</div>
+                    <div class="text-white/80">Repeat Purchase</div>
+                </div>
+                <div class="text-white">
+                    <div class="text-3xl font-poppins font-bold mb-2">24/7</div>
+                    <div class="text-white/80">Customer Support</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust & Certifications Section -->
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-poppins font-bold text-text-primary mb-4">
+                    Dipercaya & Bersertifikat
+                </h2>
+                <p class="text-lg text-text-secondary max-w-3xl mx-auto">
+                    Komitmen kami terhadap kualitas, keamanan, dan kepuasan pelanggan
+                </p>
+            </div>
+            
+            <!-- Trust Indicators Grid -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
+                <!-- Certification 1 -->
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-gradient-luxury rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-accent-700" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-poppins font-semibold text-text-primary mb-2">BPOM Certified</h3>
+                    <p class="text-text-secondary text-sm">Terdaftar resmi di BPOM Indonesia</p>
+                </div>
+                
+                <!-- Certification 2 -->
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-gradient-luxury rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-accent-700" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-poppins font-semibold text-text-primary mb-2">Cruelty-Free</h3>
+                    <p class="text-text-secondary text-sm">Tidak diuji pada hewan</p>
+                </div>
+                
+                <!-- Certification 3 -->
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-gradient-luxury rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-accent-700" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-poppins font-semibold text-text-primary mb-2">Dermatologist Tested</h3>
+                    <p class="text-text-secondary text-sm">Diuji oleh dermatolog bersertifikat</p>
+                </div>
+                
+                <!-- Certification 4 -->
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-gradient-luxury rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-accent-700" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-poppins font-semibold text-text-primary mb-2">Secure Payment</h3>
+                    <p class="text-text-secondary text-sm">Pembayaran aman & terpercaya</p>
+                </div>
+            </div>
+            
+            <!-- Money Back Guarantee -->
+            <div class="bg-gradient-luxury rounded-2xl p-8 text-center">
+                <div class="max-w-3xl mx-auto">
+                    <div class="w-20 h-20 bg-accent rounded-full flex items-center justify-center mx-auto mb-6">
+                        <svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M4 2a1 1 0 011 1v2.101a7.002 7.002 0 0111.601 2.566 1 1 0 11-1.885.666A5.002 5.002 0 005.999 7H9a1 1 0 010 2H4a1 1 0 01-1-1V3a1 1 0 011-1zm.008 9.057a1 1 0 011.276.61A5.002 5.002 0 0014.001 13H11a1 1 0 110-2h5a1 1 0 011 1v5a1 1 0 11-2 0v-2.101a7.002 7.002 0 01-11.601-2.566 1 1 0 01.61-1.276z"/>
+                        </svg>
+                    </div>
+                    
+                    <h3 class="text-2xl font-poppins font-bold text-text-primary mb-4">
+                        Garansi 30 Hari Uang Kembali
+                    </h3>
+                    
+                    <p class="text-text-secondary mb-6">
+                        Tidak puas dengan produk? Kami berikan garansi uang kembali 100% dalam 30 hari tanpa pertanyaan yang merepotkan.
+                    </p>
+                    
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                        <div class="flex items-center justify-center">
+                            <svg class="w-5 h-5 text-success mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+                            </svg>
+                            <span class="text-text-primary font-medium">Proses Mudah</span>
+                        </div>
+                        <div class="flex items-center justify-center">
+                            <svg class="w-5 h-5 text-success mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+                            </svg>
+                            <span class="text-text-primary font-medium">Refund Cepat</span>
+                        </div>
+                        <div class="flex items-center justify-center">
+                            <svg class="w-5 h-5 text-success mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+                            </svg>
+                            <span class="text-text-primary font-medium">Tanpa Ribet</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Limited Time Offers Section -->
+    <section class="py-16 bg-surface">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-poppins font-bold text-text-primary mb-4">
+                    Penawaran Terbatas Hari Ini
+                </h2>
+                <p class="text-lg text-text-secondary max-w-3xl mx-auto">
+                    Jangan lewatkan kesempatan mendapatkan produk premium dengan harga spesial
+                </p>
+            </div>
+            
+            <!-- Flash Sale Banner -->
+            <div class="bg-gradient-to-r from-primary to-primary-600 rounded-2xl p-8 mb-12 text-white text-center">
+                <div class="max-w-4xl mx-auto">
+                    <h3 class="text-2xl md:text-3xl font-poppins font-bold mb-4">
+                        🔥 FLASH SALE 50% OFF 🔥
+                    </h3>
+                    
+                    <p class="text-lg mb-6">
+                        Dapatkan diskon hingga 50% untuk semua produk skincare premium!
+                    </p>
+                    
+                    <!-- Countdown Timer -->
+                    <div class="flex justify-center gap-4 mb-6">
+                        <div class="bg-white/20 backdrop-blur-sm rounded-lg p-3 min-w-[60px]">
+                            <div class="text-2xl font-bold">23</div>
+                            <div class="text-sm">Jam</div>
+                        </div>
+                        <div class="bg-white/20 backdrop-blur-sm rounded-lg p-3 min-w-[60px]">
+                            <div class="text-2xl font-bold">45</div>
+                            <div class="text-sm">Menit</div>
+                        </div>
+                        <div class="bg-white/20 backdrop-blur-sm rounded-lg p-3 min-w-[60px]">
+                            <div class="text-2xl font-bold">12</div>
+                            <div class="text-sm">Detik</div>
+                        </div>
+                    </div>
+                    
+                    <button class="bg-white text-primary px-8 py-3 rounded-beauty font-poppins font-bold text-lg hover:bg-neutral-100 transition-colors">
+                        Belanja Sekarang
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Special Bundles -->
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Bundle 1 -->
+                <div class="bg-white rounded-2xl shadow-product overflow-hidden">
+                    <div class="relative">
+                        <img src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Skincare Bundle" class="w-full h-48 object-cover" loading="lazy" onerror="this.src='https://images.pexels.com/photos/3762879/pexels-photo-3762879.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;" />
+                        
+                        <div class="absolute top-4 left-4 bg-primary text-white px-3 py-1 rounded-full font-bold">
+                            HEMAT 40%
+                        </div>
+                    </div>
+                    
+                    <div class="p-6">
+                        <h3 class="text-xl font-poppins font-bold text-text-primary mb-3">
+                            Complete Skincare Bundle
+                        </h3>
+                        
+                        <p class="text-text-secondary mb-4">
+                            Paket lengkap perawatan kulit: Cleanser + Serum + Moisturizer + Sunscreen
+                        </p>
+                        
+                        <div class="flex items-center justify-between mb-4">
+                            <div>
+                                <span class="text-2xl font-bold text-primary">Rp 599.000</span>
+                                <span class="text-lg text-text-secondary line-through ml-2">Rp 999.000</span>
+                            </div>
+                            <div class="text-right">
+                                <div class="text-sm text-text-secondary">Tersisa</div>
+                                <div class="text-lg font-bold text-warning">12 paket</div>
+                            </div>
+                        </div>
+                        
+                        <button class="w-full bg-primary text-white py-3 rounded-beauty font-poppins font-semibold hover:bg-primary-600 transition-colors">
+                            Beli Bundle Sekarang
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Bundle 2 -->
+                <div class="bg-white rounded-2xl shadow-product overflow-hidden">
+                    <div class="relative">
+                        <img src="https://images.pexels.com/photos/3762879/pexels-photo-3762879.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Anti-Aging Bundle" class="w-full h-48 object-cover" loading="lazy" onerror="this.src='https://images.pixabay.com/photo/2020/08/18/11/26/cosmetics-5497596_1280.jpg'; this.onerror=null;" />
+                        
+                        <div class="absolute top-4 left-4 bg-accent text-text-primary px-3 py-1 rounded-full font-bold">
+                            PREMIUM
+                        </div>
+                    </div>
+                    
+                    <div class="p-6">
+                        <h3 class="text-xl font-poppins font-bold text-text-primary mb-3">
+                            Anti-Aging Premium Set
+                        </h3>
+                        
+                        <p class="text-text-secondary mb-4">
+                            Koleksi premium anti-aging: Retinol Serum + Peptide Cream + Eye Cream
+                        </p>
+                        
+                        <div class="flex items-center justify-between mb-4">
+                            <div>
+                                <span class="text-2xl font-bold text-primary">Rp 799.000</span>
+                                <span class="text-lg text-text-secondary line-through ml-2">Rp 1.299.000</span>
+                            </div>
+                            <div class="text-right">
+                                <div class="text-sm text-text-secondary">Tersisa</div>
+                                <div class="text-lg font-bold text-warning">8 paket</div>
+                            </div>
+                        </div>
+                        
+                        <button class="w-full bg-primary text-white py-3 rounded-beauty font-poppins font-semibold hover:bg-primary-600 transition-colors">
+                            Beli Bundle Sekarang
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Beauty Tips Section -->
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-poppins font-bold text-text-primary mb-4">
+                    Tips Kecantikan dari Ahli
+                </h2>
+                <p class="text-lg text-text-secondary max-w-3xl mx-auto">
+                    Pelajari rahasia perawatan kulit dari para beauty expert dan maksimalkan hasil produk Anda
+                </p>
+            </div>
+            
+            <!-- Tips Grid -->
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Tip 1 -->
+                <article class="bg-surface rounded-2xl overflow-hidden shadow-product hover:shadow-beauty transition-shadow">
+                    <div class="relative">
+                        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Morning Skincare Routine" class="w-full h-48 object-cover" loading="lazy" onerror="this.src='https://images.pexels.com/photos/4041392/pexels-photo-4041392.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;" />
+                        
+                        <!-- Play Button Overlay -->
+                        <div class="absolute inset-0 flex items-center justify-center">
+                            <button class="bg-white/90 backdrop-blur-sm rounded-full p-4 hover:bg-white transition-colors">
+                                <svg class="w-8 h-8 text-primary" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z"/>
+                                </svg>
+                            </button>
+                        </div>
+                        
+                        <div class="absolute top-4 left-4 bg-primary text-white px-2 py-1 rounded-full text-xs font-bold">
+                            VIDEO
+                        </div>
+                    </div>
+                    
+                    <div class="p-6">
+                        <h3 class="text-lg font-poppins font-semibold text-text-primary mb-3">
+                            Rutinitas Skincare Pagi yang Tepat
+                        </h3>
+                        
+                        <p class="text-text-secondary mb-4">
+                            Pelajari urutan yang benar untuk mengaplikasikan produk skincare di pagi hari agar mendapatkan hasil maksimal.
+                        </p>
+                        
+                        <div class="flex items-center justify-between">
+                            <span class="text-sm text-text-secondary">5 menit</span>
+                            <button class="text-primary font-medium hover:text-primary-600 transition-colors">
+                                Tonton Sekarang →
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                
+                <!-- Tip 2 -->
+                <article class="bg-surface rounded-2xl overflow-hidden shadow-product hover:shadow-beauty transition-shadow">
+                    <div class="relative">
+                        <img src="https://images.pexels.com/photos/4041392/pexels-photo-4041392.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Ingredient Guide" class="w-full h-48 object-cover" loading="lazy" onerror="this.src='https://images.pixabay.com/photo/2020/08/18/11/26/cosmetics-5497596_1280.jpg'; this.onerror=null;" />
+                        
+                        <div class="absolute top-4 left-4 bg-accent text-text-primary px-2 py-1 rounded-full text-xs font-bold">
+                            ARTIKEL
+                        </div>
+                    </div>
+                    
+                    <div class="p-6">
+                        <h3 class="text-lg font-poppins font-semibold text-text-primary mb-3">
+                            Panduan Lengkap Bahan Aktif Skincare
+                        </h3>
+                        
+                        <p class="text-text-secondary mb-4">
+                            Mengenal berbagai bahan aktif seperti Vitamin C, Retinol, Niacinamide dan cara menggunakannya dengan aman.
+                        </p>
+                        
+                        <div class="flex items-center justify-between">
+                            <span class="text-sm text-text-secondary">Baca 8 menit</span>
+                            <button class="text-primary font-medium hover:text-primary-600 transition-colors">
+                                Baca Selengkapnya →
+                            </button>
+                        </div>
+                    </div>
+                </article>
+                
+                <!-- Tip 3 -->
+                <article class="bg-surface rounded-2xl overflow-hidden shadow-product hover:shadow-beauty transition-shadow">
+                    <div class="relative">
+                        <img src="https://images.pixabay.com/photo/2020/08/18/11/26/cosmetics-5497596_1280.jpg" alt="Seasonal Skincare" class="w-full h-48 object-cover" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3'; this.onerror=null;" />
+                        
+                        <div class="absolute top-4 left-4 bg-secondary text-white px-2 py-1 rounded-full text-xs font-bold">
+                            TRENDING
+                        </div>
+                    </div>
+                    
+                    <div class="p-6">
+                        <h3 class="text-lg font-poppins font-semibold text-text-primary mb-3">
+                            Perawatan Kulit Sesuai Musim
+                        </h3>
+                        
+                        <p class="text-text-secondary mb-4">
+                            Tips menyesuaikan rutinitas skincare dengan perubahan cuaca dan kelembaban udara di Indonesia.
+                        </p>
+                        
+                        <div class="flex items-center justify-between">
+                            <span class="text-sm text-text-secondary">Baca 6 menit</span>
+                            <button class="text-primary font-medium hover:text-primary-600 transition-colors">
+                                Baca Selengkapnya →
+                            </button>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            
+            <!-- Newsletter Signup -->
+            <div class="mt-16 bg-gradient-beauty rounded-2xl p-8 text-center">
+                <div class="max-w-2xl mx-auto">
+                    <h3 class="text-2xl font-poppins font-bold text-white mb-4">
+                        Dapatkan Tips Kecantikan Eksklusif
+                    </h3>
+                    
+                    <p class="text-white/90 mb-6">
+                        Berlangganan newsletter kami dan dapatkan tips kecantikan terbaru, panduan produk, dan akses early bird ke produk baru!
+                    </p>
+                    
+                    <form class="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
+                        <input type="email" placeholder="Masukkan email Anda" class="flex-1 px-4 py-3 rounded-beauty border-0 focus:ring-2 focus:ring-white/50 focus:outline-none" />
+                        <button type="submit" class="bg-primary text-white px-6 py-3 rounded-beauty font-semibold hover:bg-primary-600 transition-colors whitespace-nowrap">
+                            Berlangganan
+                        </button>
+                    </form>
+                    
+                    <p class="text-white/70 text-sm mt-4">
+                        *Kami menghargai privasi Anda. Email tidak akan dibagikan ke pihak ketiga.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-16 bg-surface">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-poppins font-bold text-text-primary mb-4">
+                    Pertanyaan yang Sering Diajukan
+                </h2>
+                <p class="text-lg text-text-secondary">
+                    Temukan jawaban untuk pertanyaan umum tentang produk dan layanan kami
+                </p>
+            </div>
+            
+            <!-- FAQ Items -->
+            <div class="space-y-4">
+                <!-- FAQ 1 -->
+                <div class="bg-white rounded-beauty shadow-sm">
+                    <button class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-neutral-50 transition-colors" onclick="toggleFAQ(1)">
+                        <span class="font-poppins font-semibold text-text-primary">
+                            Apakah produk Lexon Beauty aman untuk kulit sensitif?
+                        </span>
+                        <svg class="w-5 h-5 text-text-secondary transform transition-transform" id="faq-icon-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div class="px-6 pb-4 hidden" id="faq-content-1">
+                        <p class="text-text-secondary">
+                            Ya, semua produk Lexon Beauty telah diuji dermatolog dan aman untuk kulit sensitif. Kami menggunakan bahan-bahan berkualitas tinggi yang telah terbukti gentle namun efektif. Namun, kami tetap menyarankan untuk melakukan patch test terlebih dahulu sebelum penggunaan rutin.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- FAQ 2 -->
+                <div class="bg-white rounded-beauty shadow-sm">
+                    <button class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-neutral-50 transition-colors" onclick="toggleFAQ(2)">
+                        <span class="font-poppins font-semibold text-text-primary">
+                            Berapa lama waktu pengiriman untuk wilayah Jakarta?
+                        </span>
+                        <svg class="w-5 h-5 text-text-secondary transform transition-transform" id="faq-icon-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div class="px-6 pb-4 hidden" id="faq-content-2">
+                        <p class="text-text-secondary">
+                            Untuk wilayah Jakarta dan sekitarnya, pengiriman biasanya memakan waktu 1-2 hari kerja. Untuk wilayah luar Jakarta, waktu pengiriman adalah 2-4 hari kerja. Kami bekerja sama dengan kurir terpercaya untuk memastikan produk sampai dengan aman dan tepat waktu.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- FAQ 3 -->
+                <div class="bg-white rounded-beauty shadow-sm">
+                    <button class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-neutral-50 transition-colors" onclick="toggleFAQ(3)">
+                        <span class="font-poppins font-semibold text-text-primary">
+                            Bagaimana cara menggunakan produk skincare dengan benar?
+                        </span>
+                        <svg class="w-5 h-5 text-text-secondary transform transition-transform" id="faq-icon-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div class="px-6 pb-4 hidden" id="faq-content-3">
+                        <p class="text-text-secondary">
+                            Urutan penggunaan yang benar adalah: Cleanser → Toner → Serum → Moisturizer → Sunscreen (pagi). Untuk malam hari, ganti sunscreen dengan treatment khusus seperti retinol. Setiap produk dilengkapi dengan panduan penggunaan detail, dan tim customer service kami siap membantu konsultasi gratis.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- FAQ 4 -->
+                <div class="bg-white rounded-beauty shadow-sm">
+                    <button class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-neutral-50 transition-colors" onclick="toggleFAQ(4)">
+                        <span class="font-poppins font-semibold text-text-primary">
+                            Apakah ada garansi jika produk tidak cocok?
+                        </span>
+                        <svg class="w-5 h-5 text-text-secondary transform transition-transform" id="faq-icon-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div class="px-6 pb-4 hidden" id="faq-content-4">
+                        <p class="text-text-secondary">
+                            Ya, kami memberikan garansi 30 hari uang kembali jika produk tidak cocok dengan kulit Anda. Syaratnya adalah produk masih dalam kondisi baik (minimal 70% isi) dan disertai dengan bukti pembelian. Proses refund akan diproses dalam 3-5 hari kerja setelah produk diterima kembali.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- FAQ 5 -->
+                <div class="bg-white rounded-beauty shadow-sm">
+                    <button class="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-neutral-50 transition-colors" onclick="toggleFAQ(5)">
+                        <span class="font-poppins font-semibold text-text-primary">
+                            Bagaimana cara mendapatkan konsultasi beauty expert?
+                        </span>
+                        <svg class="w-5 h-5 text-text-secondary transform transition-transform" id="faq-icon-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+                        </svg>
+                    </button>
+                    <div class="px-6 pb-4 hidden" id="faq-content-5">
+                        <p class="text-text-secondary">
+                            Konsultasi dengan beauty expert kami tersedia gratis melalui WhatsApp, live chat di website, atau video call (dengan appointment). Anda bisa mendiskusikan masalah kulit, rekomendasi produk, dan cara penggunaan yang tepat. Layanan konsultasi tersedia Senin-Sabtu pukul 09.00-21.00 WIB.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="py-16 bg-gradient-beauty">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl md:text-4xl font-poppins font-bold text-white mb-6">
+                Siap Memulai Transformasi Kecantikan Anda?
+            </h2>
+            
+            <p class="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
+                Bergabunglah dengan ribuan wanita Indonesia yang telah merasakan transformasi luar biasa dengan produk premium Lexon Beauty
+            </p>
+            
+            <!-- Final CTA Buttons -->
+            <div class="flex flex-col sm:flex-row gap-4 justify-center mb-8">
+                <button class="bg-white text-primary px-8 py-4 rounded-beauty font-poppins font-bold text-lg shadow-cta hover:shadow-cta-hover transform-hover">
+                    Mulai Belanja Sekarang
+                </button>
+                <button class="bg-primary text-white border-2 border-white px-8 py-4 rounded-beauty font-poppins font-bold text-lg hover:bg-primary-600 transition-colors">
+                    Konsultasi Gratis
+                </button>
+            </div>
+            
+            <!-- Security Badges -->
+            <div class="flex flex-wrap justify-center gap-6 text-white/80">
+                <div class="flex items-center">
+                    <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z"/>
+                    </svg>
+                    <span>Pembayaran Aman</span>
+                </div>
+                <div class="flex items-center">
+                    <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"/>
+                    </svg>
+                    <span>Gratis Ongkir</span>
+                </div>
+                <div class="flex items-center">
+                    <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M4 2a1 1 0 011 1v2.101a7.002 7.002 0 0111.601 2.566 1 1 0 11-1.885.666A5.002 5.002 0 005.999 7H9a1 1 0 010 2H4a1 1 0 01-1-1V3a1 1 0 011-1zm.008 9.057a1 1 0 011.276.61A5.002 5.002 0 0014.001 13H11a1 1 0 110-2h5a1 1 0 011 1v5a1 1 0 11-2 0v-2.101a7.002 7.002 0 01-11.601-2.566 1 1 0 01.61-1.276z"/>
+                    </svg>
+                    <span>30 Hari Garansi</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-text-primary text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Company Info -->
+                <div>
+                    <div class="flex items-center mb-4">
+                        <svg class="h-8 w-8 text-primary" viewBox="0 0 32 32" fill="currentColor">
+                            <path d="M16 2L20 10H28L22 16L24 24L16 20L8 24L10 16L4 10H12L16 2Z"/>
+                        </svg>
+                        <span class="ml-2 text-xl font-poppins font-bold">Lexon Beauty</span>
+                    </div>
+                    
+                    <p class="text-neutral-300 mb-4">
+                        Destinasi terpercaya untuk produk kecantikan premium dengan kualitas internasional dan harga terjangkau.
+                    </p>
+                    
+                    <!-- Social Media -->
+                    <div class="flex space-x-4">
+                        <a href="javascript:void(0)" class="text-neutral-300 hover:text-primary transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
+                            </svg>
+                        </a>
+                        <a href="javascript:void(0)" class="text-neutral-300 hover:text-primary transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.174-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.402.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.357-.629-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24.009 12.017 24.009c6.624 0 11.99-5.367 11.99-11.988C24.007 5.367 18.641.001.012.001z"/>
+                            </svg>
+                        </a>
+                        <a href="javascript:void(0)" class="text-neutral-300 hover:text-primary transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="text-lg font-poppins font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#products" class="text-neutral-300 hover:text-primary transition-colors">Produk</a></li>
+                        <li><a href="#about" class="text-neutral-300 hover:text-primary transition-colors">Tentang Kami</a></li>
+                        <li><a href="#testimonials" class="text-neutral-300 hover:text-primary transition-colors">Testimoni</a></li>
+                        <li><a href="javascript:void(0)" class="text-neutral-300 hover:text-primary transition-colors">Blog</a></li>
+                        <li><a href="javascript:void(0)" class="text-neutral-300 hover:text-primary transition-colors">Karir</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Customer Service -->
+                <div>
+                    <h3 class="text-lg font-poppins font-semibold mb-4">Customer Service</h3>
+                    <ul class="space-y-2">
+                        <li><a href="javascript:void(0)" class="text-neutral-300 hover:text-primary transition-colors">Bantuan</a></li>
+                        <li><a href="javascript:void(0)" class="text-neutral-300 hover:text-primary transition-colors">Cara Pemesanan</a></li>
+                        <li><a href="javascript:void(0)" class="text-neutral-300 hover:text-primary transition-colors">Pengiriman</a></li>
+                        <li><a href="javascript:void(0)" class="text-neutral-300 hover:text-primary transition-colors">Pengembalian</a></li>
+                        <li><a href="javascript:void(0)" class="text-neutral-300 hover:text-primary transition-colors">Syarat & Ketentuan</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Contact Info -->
+                <div>
+                    <h3 class="text-lg font-poppins font-semibold mb-4">Hubungi Kami</h3>
+                    <div class="space-y-3">
+                        <div class="flex items-start">
+                            <svg class="w-5 h-5 text-primary mr-3 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"/>
+                            </svg>
+                            <span class="text-neutral-300">
+                                Jl. Sudirman No. 123<br />
+                                Jakarta Pusat 10220
+                            </span>
+                        </div>
+                        
+                        <div class="flex items-center">
+                            <svg class="w-5 h-5 text-primary mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
+                            </svg>
+                            <span class="text-neutral-300">+62 21 1234 5678</span>
+                        </div>
+                        
+                        <div class="flex items-center">
+                            <svg class="w-5 h-5 text-primary mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/>
+                                <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/>
+                            </svg>
+                            <span class="text-neutral-300">hello@lexonbeauty.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Bottom Footer -->
+            <div class="border-t border-neutral-700 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-neutral-300 text-sm">
+                    © 2025 Lexon Beauty. All Rights Reserved.
+                </p>
+                
+                <div class="flex space-x-6 mt-4 md:mt-0">
+                    <a href="javascript:void(0)" class="text-neutral-300 hover:text-primary text-sm transition-colors">Privacy Policy</a>
+                    <a href="javascript:void(0)" class="text-neutral-300 hover:text-primary text-sm transition-colors">Terms of Service</a>
+                    <a href="javascript:void(0)" class="text-neutral-300 hover:text-primary text-sm transition-colors">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+// Enhanced Category Tab Functionality with Product Filtering and Mobile Support
+document.addEventListener('DOMContentLoaded', function() {
+    const categoryTabs = document.querySelectorAll('.category-tab');
+    const productCards = document.querySelectorAll('.product-card');
+    const mobileProductWrapper = document.getElementById('mobile-product-wrapper');
+    let mobileSwiper = null;
+    
+    // Sample product data for all categories
+    const productData = {
+        bestsellers: [
+            {
+                image: "https://images.unsplash.com/photo-1556228578-8c89e6adf883?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3",
+                badge: "-25%",
+                badgeClass: "bg-primary",
+                title: "Vitamin C Brightening Serum",
+                description: "Serum pencerah dengan 20% Vitamin C untuk kulit glowing",
+                rating: "⭐⭐⭐⭐⭐",
+                reviews: "(127 ulasan)",
+                price: "Rp 299.000",
+                originalPrice: "Rp 399.000",
+                features: ["20% Vitamin C murni", "Teruji dermatolog", "Cocok untuk semua jenis kulit", "Hasil terlihat dalam 2 minggu"]
+            },
+            {
+                image: "https://images.pexels.com/photos/4041392/pexels-photo-4041392.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+                badge: "NEW",
+                badgeClass: "bg-success",
+                title: "Hyaluronic Acid Moisturizer",
+                description: "Pelembab intensif dengan hyaluronic acid untuk hidrasi maksimal",
+                rating: "⭐⭐⭐⭐⭐",
+                reviews: "(89 ulasan)",
+                price: "Rp 249.000",
+                originalPrice: "",
+                features: ["Hyaluronic Acid 2%", "24H intense hydration", "Non-comedogenic", "Suitable for dry skin"]
+            },
+            {
+                image: "https://images.pixabay.com/photo/2020/08/18/11/26/cosmetics-5497596_1280.jpg",
+                badge: "Stok Terbatas",
+                badgeClass: "bg-warning text-text-primary",
+                title: "Retinol Night Cream",
+                description: "Krim malam anti-aging dengan retinol untuk kulit lebih muda",
+                rating: "⭐⭐⭐⭐⭐",
+                reviews: "(156 ulasan)",
+                price: "Rp 349.000",
+                originalPrice: "",
+                features: ["Retinol 0.5%", "Reduces fine lines", "Night useonly", "Visible results in 4 weeks"]
+            },
+            {
+                image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3",
+                badge: "-15%",
+                badgeClass: "bg-primary",
+                title: "Niacinamide Pore Control Serum",
+                description: "Serum pengontrol pori dengan 10% niacinamide",
+                rating: "⭐⭐⭐⭐⭐",
+                reviews: "(203 ulasan)",
+                price: "Rp 199.000",
+                originalPrice: "Rp 235.000",
+                features: ["Niacinamide 10%", "Minimizes pores", "Controls oil production", "For oily & combination skin"]
+            }
+        ],
+        facewash: [
+            {
+                image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3",
+                badge: "NEW",
+                badgeClass: "bg-success",
+                title: "Gentle Foam Cleanser",
+                description: "Pembersih wajah lembut dengan formula bebas sulfat",
+                rating: "⭐⭐⭐⭐⭐",
+                reviews: "(95 ulasan)",
+                price: "Rp 189.000",
+                originalPrice: "",
+                features: ["Sulfate-free formula", "Gentle on sensitive skin", "Maintains natural moisture", "pH balanced"]
+            },
+            {
+                image: "https://images.pexels.com/photos/4465124/pexels-photo-4465124.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+                badge: "ACNE CARE",
+                badgeClass: "bg-warning text-text-primary",
+                title: "Salicylic Acid Cleanser",
+                description: "Pembersih khusus jerawat dengan 2% salicylic acid",
+                rating: "⭐⭐⭐⭐⭐",
+                reviews: "(112 ulasan)",
+                price: "Rp 229.000",
+                originalPrice: "",
+                features: ["Salicylic Acid 2%", "Unclogs pores", "Reduces acne", "Oil-free formula"]
+            }
+        ],
+        mens: [
+            {
+                image: "https://images.unsplash.com/photo-1503066983102-eaa0ea3f394f?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3",
+                badge: "FOR MEN",
+                badgeClass: "bg-secondary",
+                title: "Men's Energizing Face Wash",
+                description: "Pembersih wajah pria dengan menthol untuk kulit segar",
+                rating: "⭐⭐⭐⭐⭐",
+                reviews: "(78 ulasan)",
+                price: "Rp 179.000",
+                originalPrice: "",
+                features: ["Menthol cooling effect", "Deep cleansing", "Oil control", "Fresh masculine scent"]
+            }
+        ],
+        haircare: [
+            {
+                image: "https://images.unsplash.com/photo-1522338140262-f46f5913618a?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3",
+                badge: "NATURAL",
+                badgeClass: "bg-accent text-text-primary",
+                title: "Argan Oil Nourishing Shampoo",
+                description: "Shampoo nutrisi dengan argan oil untuk rambut berkilau",
+                rating: "⭐⭐⭐⭐⭐",
+                reviews: "(89 ulasan)",
+                price: "Rp 199.000",
+                originalPrice: "",
+                features: ["100% Argan Oil", "Nourishes hair", "Adds shine", "Sulfate-free"]
+            }
+        ],
+        parfum: [
+            {
+                image: "https://images.unsplash.com/photo-1541643600914-78b084683601?q=80&w=2048&auto=format&fit=crop&ixlib=rb-4.0.3",
+                badge: "LIMITED",
+                badgeClass: "bg-accent text-text-primary",
+                title: "Floral Paradise EDT 50ml",
+                description: "Parfum floral segar dengan note jasmine dan rose",
+                rating: "⭐⭐⭐⭐⭐",
+                reviews: "(156 ulasan)",
+                price: "Rp 599.000",
+                originalPrice: "",
+                features: ["Top notes: Citrus", "Heart notes: Jasmine & Rose", "Base notes: Musk", "Long-lasting fragrance"]
+            }
+        ]
+    };
+    
+    // Function to create mobile product card HTML
+    function createMobileProductCard(product, index) {
+        return `
+            <div class="swiper-slide">
+                <div class="mobile-flip-card cursor-pointer" data-index="${index}">
+                    <div class="mobile-flip-card-inner">
+                        <div class="mobile-flip-card-front">
+                            <div class="relative overflow-hidden rounded-t-beauty">
+                                <img src="${product.image}" alt="${product.title}" class="w-full h-48 object-cover" />
+                                <div class="absolute top-2 left-2 ${product.badgeClass} text-white px-2 py-1 rounded-full text-xs font-bold">
+                                    ${product.badge}
+                                </div>
+                            </div>
+                            <div class="p-4">
+                                <div class="flex items-center mb-2">
+                                    <div class="flex text-accent text-sm">${product.rating}</div>
+                                    <span class="text-text-secondary text-sm ml-2">${product.reviews}</span>
+                                </div>
+                                <h3 class="font-poppins font-semibold text-text-primary mb-2">${product.title}</h3>
+                                <p class="text-text-secondary text-sm mb-3">${product.description}</p>
+                                <div class="flex items-center justify-between mb-3">
+                                    <div>
+                                        <span class="text-lg font-bold text-primary">${product.price}</span>
+                                        ${product.originalPrice ? `<span class="text-sm text-text-secondary line-through ml-2">${product.originalPrice}</span>` : ''}
+                                    </div>
+                                </div>
+                                <button class="w-full bg-primary text-white py-2 rounded-beauty font-medium hover:bg-primary-600 transition-colors">
+                                    Tambah ke Keranjang
+                                </button>
+                            </div>
+                        </div>
+                        
+                        <div class="mobile-flip-card-back">
+                            <div class="p-6 h-full bg-gradient-to-br from-primary-50 to-primary-100 rounded-beauty">
+                                <h3 class="font-poppins font-bold text-text-primary mb-4 text-center">Detail Produk</h3>
+                                <div class="space-y-3 mb-4">
+                                    ${product.features.map(feature => `
+                                        <div class="flex items-start">
+                                            <svg class="w-4 h-4 text-success mr-2 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+                                            </svg>
+                                            <span class="text-sm text-text-secondary">${feature}</span>
+                                        </div>
+                                    `).join('')}
+                                </div>
+                                <div class="text-center">
+                                    <div class="text-xl font-bold text-primary mb-2">${product.price}</div>
+                                    <button class="w-full bg-primary text-white py-2 rounded-beauty font-medium hover:bg-primary-600 transition-colors">
+                                        Beli Sekarang
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        `;
+    }
+    
+    // Function to initialize mobile swiper
+    function initializeMobileSwiper(products) {
+        if (mobileProductWrapper) {
+            mobileProductWrapper.innerHTML = products.map((product, index) => 
+                createMobileProductCard(product, index)
+            ).join('');
+            
+            // Initialize Swiper
+            if (typeof Swiper !== 'undefined') {
+                if (mobileSwiper) {
+                    mobileSwiper.destroy(true, true);
+                }
+                
+                mobileSwiper = new Swiper('#mobile-product-swiper', {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                    centeredSlides: true,
+                    pagination: {
+                        el: '.swiper-pagination',
+                        clickable: true,
+                    },
+                    navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                    },
+                    autoplay: {
+                        delay: 5000,
+                        disableOnInteraction: false,
+                    },
+                    loop: products.length > 1,
+                });
+            }
+            
+            // Add touch flip functionality for mobile cards
+            document.querySelectorAll('.mobile-flip-card').forEach(card => {
+                card.addEventListener('click', function() {
+                    this.classList.toggle('flipped');
+                });
+            });
+        }
+    }
+    
+    // Category tab functionality
+    categoryTabs.forEach(tab => {
+        tab.addEventListener('click', function() {
+            const category = this.getAttribute('data-category');
+            
+            // Update active tab
+            categoryTabs.forEach(t => {
+                t.classList.remove('bg-primary', 'text-white');
+                t.classList.add('bg-neutral-100', 'text-text-primary');
+            });
+            this.classList.remove('bg-neutral-100', 'text-text-primary');
+            this.classList.add('bg-primary', 'text-white');
+            
+            // Show/hide products based on category for desktop/tablet
+            productCards.forEach(card => {
+                const cardCategory = card.getAttribute('data-category');
+                if (cardCategory === category) {
+                    card.classList.remove('hidden');
+                    card.style.display = 'block';
+                } else {
+                    card.classList.add('hidden');
+                    card.style.display = 'none';
+                }
+            });
+            
+            // Update mobile swiper with category products
+            const categoryProducts = productData[category] || [];
+            initializeMobileSwiper(categoryProducts);
+        });
+    });
+    
+    // Initialize with bestsellers on page load
+    initializeMobileSwiper(productData.bestsellers);
+    
+    // Add flip functionality for desktop/tablet cards (touch devices)
+    document.querySelectorAll('.flip-card').forEach(card => {
+        // Only add click event for touch devices
+        if (!window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+            card.addEventListener('click', function() {
+                this.classList.toggle('flipped');
+            });
+        }
+    });
+    
+    // Load Swiper library if not already loaded
+    if (typeof Swiper === 'undefined') {
+        const swiperCSS = document.createElement('link');
+        swiperCSS.rel = 'stylesheet';
+        swiperCSS.href = 'https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css';
+        document.head.appendChild(swiperCSS);
+        
+        const swiperJS = document.createElement('script');
+        swiperJS.src = 'https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js';
+        swiperJS.onload = function() {
+            initializeMobileSwiper(productData.bestsellers);
+        };
+        document.head.appendChild(swiperJS);
+    }
+    
+    // Mobile Menu Toggle Functionality (existing code)
+    const mobileMenuToggle = document.getElementById('mobile-menu-toggle');
+    const mobileMenu = document.getElementById('mobile-menu');
+    const hamburgerIcon = document.getElementById('hamburger-icon');
+    const closeIcon = document.getElementById('close-icon');
+    
+    if (mobileMenuToggle && mobileMenu) {
+        mobileMenuToggle.addEventListener('click', function() {
+            const isHidden = mobileMenu.classList.contains('hidden');
+            
+            if (isHidden) {
+                mobileMenu.classList.remove('hidden');
+                hamburgerIcon.classList.add('hidden');
+                closeIcon.classList.remove('hidden');
+            } else {
+                mobileMenu.classList.add('hidden');
+                hamburgerIcon.classList.remove('hidden');
+                closeIcon.classList.add('hidden');
+            }
+        });
+        
+        const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+        mobileMenuLinks.forEach(link => {
+            link.addEventListener('click', function() {
+                mobileMenu.classList.add('hidden');
+                hamburgerIcon.classList.remove('hidden');
+                closeIcon.classList.add('hidden');
+            });
+        });
+    }
+});
+
+// FAQ Toggle Functionality (existing code)
+function toggleFAQ(index) {
+    const content = document.getElementById(`faq-content-${index}`);
+    const icon = document.getElementById(`faq-icon-${index}`);
+    
+    if (content.classList.contains('hidden')) {
+        content.classList.remove('hidden');
+        icon.style.transform = 'rotate(180deg)';
+    } else {
+        content.classList.add('hidden');
+        icon.style.transform = 'rotate(0deg)';
+    }
+}
+
+// Rest of existing JavaScript code remains the same...
+// Smooth Scrolling for Navigation Links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+            target.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            });
+        }
+    });
+});
+
+// Countdown Timer Animation
+function updateCountdown() {
+    const hours = document.querySelector('.countdown-hours');
+    const minutes = document.querySelector('.countdown-minutes');
+    const seconds = document.querySelector('.countdown-seconds');
+    
+    let currentHours = 23;
+    let currentMinutes = 45;
+    let currentSeconds = 12;
+    
+    setInterval(() => {
+        currentSeconds--;
+        if (currentSeconds < 0) {
+            currentSeconds = 59;
+            currentMinutes--;
+            if (currentMinutes < 0) {
+                currentMinutes = 59;
+                currentHours--;
+                if (currentHours < 0) {
+                    currentHours = 23;
+                }
+            }
+        }
+        
+        if (hours) hours.textContent = currentHours.toString().padStart(2, '0');
+        if (minutes) minutes.textContent = currentMinutes.toString().padStart(2, '0');
+        if (seconds) seconds.textContent = currentSeconds.toString().padStart(2, '0');
+    }, 1000);
+}
+
+updateCountdown();
+
+// Add to Cart Functionality (Demo)
+document.addEventListener('click', function(e) {
+    if (e.target.textContent.includes('Tambah ke Keranjang')) {
+        const originalText = e.target.textContent;
+        e.target.textContent = 'Ditambahkan!';
+        e.target.classList.add('bg-success');
+        
+        setTimeout(() => {
+            e.target.textContent = originalText;
+            e.target.classList.remove('bg-success');
+        }, 2000);
+    }
+});
+
+// Newsletter Form Submission
+const newsletterForm = document.querySelector('form');
+if (newsletterForm) {
+    newsletterForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+        const email = this.querySelector('input[type="email"]').value;
+        if (email) {
+            alert('Terima kasih! Anda telah berlangganan newsletter kami.');
+            this.reset();
+        }
+    });
+}
+
+// Lazy Loading for Images
+const images = document.querySelectorAll('img[loading="lazy"]');
+if ('IntersectionObserver' in window) {
+    const imageObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                const img = entry.target;
+                img.src = img.src;
+                img.classList.remove('opacity-0');
+                img.classList.add('opacity-100');
+                observer.unobserve(img);
+            }
+        });
+    });
+    
+    images.forEach(img => {
+        img.classList.add('opacity-0', 'transition-opacity', 'duration-300');
+        imageObserver.observe(img);
+    });
+}
+</script>
+</body>
+</html>
